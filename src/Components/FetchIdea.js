@@ -31,16 +31,18 @@ class Jokes extends Component {
     }
     render() {
         return (
-            <section>
-                <div>
+            <section className="fetch">
+                <div className="bild">
                 <img src="../assets/img/bild3.png" alt=""/>
                 </div>
 
-            <div>
-             <div>{this.state.items.value }</div>
-            </div>
-
+                <div >
+                 <div className="item">{this.state.items.value }</div>
+                </div>
+            
+               
             </section>
+           
         );
     }
 }

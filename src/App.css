@@ -1,18 +1,73 @@
-/* .start{
-  display: grid;
-  grid-template-columns: repeat(2 , 1fr);
+
+
+.fetch{
+  margin-left: 35%;
+  margin-bottom: 10%;
 }
-.start div{
+
+.fetch img{
+  text-align: center;
+  width: 40%;
+  height: 60vh;
+}
+.item{
+  font-size: 30px;
   width: 50%;
-  height: 50vh;
 }
 
-.first img{
-  width: 100%;
-}
 
-.second{
+
+.hero {
+  min-height: 70vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-} */
+  flex-direction: column;
+  background-image: url('https://source.unsplash.com/1440x900/?USA');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.hero-title h1 {
+  font-size: 1rem;
+  letter-spacing: 24px;
+  color: white;
+}
+.hero-title h2 {
+  font-size: 4rem;
+  letter-spacing: 14px;
+  color: white;
+  background-color: rgba(235, 0, 168, 0.468);
+  padding: 2rem;
+}
+.hero-title h3 {
+  font-size: 3rem;
+  letter-spacing: 14px;
+  color: white;
+  background-color: rgba(110, 204, 235, 0.639);
+  padding: 2rem;
+}
+.hero-title h4 {
+  font-size: 3rem;
+  letter-spacing: 14px;
+  color: white;
+  background-color: rgba(240, 0, 112, 0.461);
+  padding: 2rem;
+}
+.hero-title h5 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 14px;
+  color: white;
+  background-color: rgba(173, 230, 194, 0.406);
+  padding: 2rem;
+}
+
