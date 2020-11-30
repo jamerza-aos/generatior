@@ -1,21 +1,32 @@
-
-
-.fetch{
-  margin-left: 35%;
-  margin-bottom: 10%;
+.fetch {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://source.unsplash.com/1440x900/?USA,desert');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.fetch img{
+.fetch img {
   text-align: center;
-  width: 40%;
-  height: 60vh;
+  width: 100%;
+  margin-bottom: 4rem;
 }
-.item{
+.item {
+  margin: 0 auto;
   font-size: 30px;
-  width: 50%;
+  width: 80%;
+  padding: 3rem;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
 }
-
-
 
 .hero {
   min-height: 70vh;
@@ -71,3 +82,11 @@
   padding: 2rem;
 }
 
+a {
+  margin-top: 2rem;
+  padding: 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
